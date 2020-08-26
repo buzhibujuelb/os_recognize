@@ -1,0 +1,6 @@
+ <view wx:for="{{list}}" wx:key="id" >
+      <view class="Q">Q{{item.id}}：{{item.q}}</view>
+       <view class="A">A{{item.id}}：{{item.a}}</view>
+      </view>
+<view class="Q">致谢</view>
+<view class="A">感谢腾讯星火计划，腾讯智能钛平台对本小程序的大力支持。</view>

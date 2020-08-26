@@ -1,0 +1,22 @@
+  <view>
+    <view wx:for="{{list}}" wx:key="id" >
+      <view class="lesson" bindtap='powerDrawer' data-statu='open' id="{{item.id}}">
+        <image class="lessonPic" mode='aspectFit' src="{{item.src}}"></image>
+        <view class="lessonName">{{item.name}}</view>
+        <view class="lessonIntroduce">{{item.introduce}}</view>
+      </view>
+        
+      <!-- 弹窗 -->
+      <view class='drawer_box' wx:if='{{item.showModalStatus}}' id='{{item.id}}'>
+        <view class="title">{{item.name}}</view>
+        <view class='drawer_content'>
+            {{item.des}}
+        </view>
+        <!-- 确定按钮 -->
+        <view class='btn_ok' bindtap='powerDrawer' data-statu='close' id='{{item.id}}'>确定</view>
+      </view>
+    </view>
+      
+    <!-- 遮罩层 -->
+    <view class='drawer_screen' data-statu='close' wx:if='{{showModalStatus}}'></view>
+  </view>

@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <canvas canvas-id="canvas" style="width: 600rpx;height: 600rpx;"></canvas>
+  <canvas canvas-id="canvas2"style="width: 2000rpx;height: 2000rpx;position:fixed;top:999999999999999999999rpx;"></canvas>
+  <button bindtap="upload">
+  <image src="/imgs/submit.png" style="width: 30px; height: 30px; vertical-align: middle;"></image>上传截图
+  </button>
+  
+  <text>{{text}}</text>
+</view>

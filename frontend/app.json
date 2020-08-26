@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/qa/qa"
+  ],
+  "tabBar": {
+    "color": "#7A7E83", 
+    "selectedColor": "#db0f20", 
+    "borderStyle": "black", 
+    "backgroundColor": "#ffffff", 
+    "list": [
+      {
+        "pagePath": "pages/index/index", 
+        "iconPath": "imgs/reg.png",  
+        "selectedIconPath": "imgs/reg.png",  
+        "text": "识别"
+      }, 
+      {
+        "pagePath": "pages/detail/detail",
+        "iconPath": "imgs/mes.png", 
+        "selectedIconPath": "imgs/mes.png",  
+        "text": "信息"
+      }, 
+      {
+        "pagePath": "pages/qa/qa",
+        "iconPath": "imgs/qa.png", 
+        "selectedIconPath": "imgs/qa.png",  
+        "text": "帮助"
+      }
+    ]
+  }, 
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "截图os识别",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "tfjsPlugin": {
+      "version": "0.1.0",
+      "provider": "wx6afed118d9e81df9"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
