@@ -14,8 +14,8 @@ Page({
   }, 
 
   async loadModel() {
-    //this.model = await tfl.loadLayersModel("https://api.buzhibujue.cf/mobilenet/model.json");
-    this.model = await tfl.loadLayersModel("http://192.168.1.10:8000/model.json");
+    this.model = await tfl.loadLayersModel("https://api.buzhibujue.cf/mobilenet/model.json");
+//    this.model = await tfl.loadLayersModel("http://192.168.1.10:8000/model.json");
 //    this.model = await tfl.loadLayersModel("http://localhost:8000/model.json");
     this.model.summary();
   }, 
