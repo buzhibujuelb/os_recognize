@@ -1,3 +1,5 @@
 node_modules
 data
 *.un~
+.ipynb_checkpoints
+pass.txt

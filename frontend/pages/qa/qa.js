@@ -35,7 +35,7 @@ Page({
         {
           id:6,
           q:"开源吗？",
-          a:"开！在 https://github.com/liubei121212/os_recognize"
+          a:"开！在 https://github.com/buzhibujuelb/os_recognize"
         }
       ]
   }

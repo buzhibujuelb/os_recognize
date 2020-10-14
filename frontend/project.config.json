@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": false,
 		"enhance": false,
 		"postcss": true,
@@ -25,14 +25,15 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
+		"bundle": false,
 		"useCompilerModule": true,
 		"userConfirmedUseCompilerModuleSwitch": true,
 		"compileHotReLoad": false,
 		"useIsolateContext": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.12.2",
-	"appid": "wx358bd6287a5f8b77",
+	"libVersion": "2.13.0",
+	"appid": "wx6686ea37ae3de2ad",
 	"projectname": "phoneRecognize",
 	"debugOptions": {
 		"hidedInDevtools": []
