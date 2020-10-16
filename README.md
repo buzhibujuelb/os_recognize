@@ -31,7 +31,7 @@
 
 ### GitHub镜像
 
-[![github镜像](https://s1.ax1x.com/2020/10/17/0qKFnH.th.png)](https://imgchr.com/i/0qKFnH)
+[![github镜像](https://s1.ax1x.com/2020/10/17/0qKFnH.th.png)](https://buzhibujuelb.github.io/os_recognize)
 
 ### 小程序码
 
